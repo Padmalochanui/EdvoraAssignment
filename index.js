@@ -1,19 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 // import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import FetchAPIComponent from './Edovora';
-import Edvora2 from './Edvora2';
-import Api from './Api';
-import Sona from './Product';
 import Products from './Products';
+import AllProduct from './AllProduct';
+import MainComponent from './MainComponent';
+import DropdownList from './DropdownList';
+import StateDropdown from './StateDropdown';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <FetchAPIComponent /> */}
-    <Products />
+    {/* <App /> */}
+    {/* <Products /> */}
+    <MainComponent />
+    {/* <StateDropdown /> */}
+    {/* <DropdownList /> */}
+    {/* <AllProduct /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

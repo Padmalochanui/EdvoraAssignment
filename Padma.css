@@ -1,0 +1,43 @@
+
+.container{
+    width: 300px;
+    padding: 20px;
+    float: left;
+    border-radius: 20px;
+}
+img{
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+}
+.box td{
+    padding: 10px;  
+}
+.box{
+    background-color: rgba(0, 0, 0, 0.726);
+    color: white;
+    border-radius: 20px;
+}
+.edvora{
+    color: whitesmoke;
+    margin-top: 1px;
+}
+.Dropdown{
+    align-items: center;
+    border-radius: 20px;
+    width: 100%;
+    margin: 5px;
+    padding: 20px;
+    background-color: rgba(19, 19, 18, 0.562);
+    color: grey;
+}
+.Dropdown button{
+    margin: 5px;
+}
+.product{
+    /* background-color: rgba(0, 0, 0, 0.781); */
+    color: whitesmoke;
+}
+.all{
+    background-color: rgba(0, 0, 0, 0.781);
+}
